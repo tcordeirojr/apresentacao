@@ -1,0 +1,76 @@
+.nav-bar{
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: space-around;
+    height: 25px;
+
+    
+}
+.email{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    position: relative;
+    color: white;
+}
+.menu {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    gap: 60px;
+    right: 30px;
+    font-family: 'poppins',sans-serif;
+    list-style: none;
+    left: 25px;
+}
+.menu a{
+    color: white;
+}
+.foto-perfil img{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 260px;
+    top: 200px;
+    border-radius: 50%;
+    animation: float 2s infinite;
+}
+.sobre{
+    display: flex;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+    color: aliceblue;
+    flex-direction: column;
+    width: 400px;
+    height: 200px; 
+    justify-content: center;
+    /* background-color: aqua; */
+    left: 650px;
+    bottom: 60px;
+}
+.sobre h1{
+    font-size: 35px;
+}
+.sobre ul{
+    position: relative;
+    width: 550px;
+    text-align:justify;
+    font-size:15px;
+    right: 25px;
+    bottom: 20px;
+}
+.sobre li{
+    padding-top: 10px;
+}
+.projetos{
+    display: flex;
+    position: relative;
+}
+
+@keyframes float{
+    50%{
+        transform: translateY(-2%);
+    }
+}
