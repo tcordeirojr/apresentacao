@@ -40,18 +40,20 @@
 .sobre{
     display: flex;
     position: relative;
-    font-family: 'poppins', sans-serif;
-    color: aliceblue;
+    font-family: 'poppins ', sans-serif;
+    color: rgb(251, 251, 250);
     flex-direction: column;
     width: 400px;
     height: 200px; 
     justify-content: center;
-    /* background-color: aqua; */
     left: 650px;
     bottom: 60px;
 }
 .sobre h1{
     font-size: 35px;
+    color:transparent;
+    background: radial-gradient(circle farthest-corner at center center, #cfcfcf17 0%, #0000002d 100%);
+    -webkit-text-stroke: 1px #d0900fe8;
 }
 .sobre ul{
     position: relative;
@@ -65,8 +67,30 @@
     padding-top: 10px;
 }
 .projetos{
+    background: rgba(0, 0, 0, 0.351);
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 10, 0.65);
+    overflow: hidden;
     display: flex;
     position: relative;
+    flex-direction: column;
+}
+.projetos h1{
+    display: flex;
+    position: relative;
+    box-shadow: 10px;
+    width: auto;
+    height: 400px;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 58px;
+    font-weight: 400;
+    font-family: "roboto mono",monospace;
+    color: white;
+}
+.projetos img{
+    width: 450px;
+    height: 300px;
 }
 
 @keyframes float{
